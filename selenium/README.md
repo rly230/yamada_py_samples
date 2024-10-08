@@ -4,7 +4,7 @@
 参考： https://www.mlab.im.dendai.ac.jp/~yamada/ir/HTMLParser/Selenium/
 
 ## 環境構築
+seleniumをpipでインストール
 ```
-git clone https://github.com/rly230/yamada_py_samples/tree/main/selenium
-pip install -r requirements.txt
+pip install selenium
 ```
