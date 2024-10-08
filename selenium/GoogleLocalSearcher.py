@@ -48,7 +48,7 @@ def main():
     query = "遊園地"
 
     # ChromeDriver の場所を指定 (プロジェクトフォルダからの相対パス)
-    driver_path = "/usr/local/bin/chromedriver"
+    driver_path = "driverのpath"
     service = Service(executable_path=driver_path)
 
     # GoogleChromeを起動
