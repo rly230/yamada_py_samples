@@ -1,2 +1,3 @@
+![Static Badge](https://img.shields.io/badge/python-3.12-blue)
 # yamada_py_samples
-作成するサンプルコードは必ずしもjavaに対応していなくて良い。やっぴ～
+
