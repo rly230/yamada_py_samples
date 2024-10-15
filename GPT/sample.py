@@ -3,12 +3,12 @@ from openai import OpenAI
 # APIキー
 key = "YOUR_API_KEY"
 # モデル
-model = "gpt-4o-mini"
+model = "gpt-4o"
 # トークンの最大長
 max_tokens = 2048
 
 
-service = OpenAI(api_key=key)
+cliant = OpenAI(api_key=key)
 
 # 入力となる会話を格納するリスト
 messages = []
@@ -31,7 +31,7 @@ for message in messages:
 
 
 # 会話の取得
-completionResult = service.chat.completions.create(
+completionResult = cliant.chat.completions.create(
     model=model,
     messages=messages,
     max_tokens=max_tokens,
