@@ -8,7 +8,7 @@ model = "gpt-4o"
 max_tokens = 2048
 
 
-cliant = OpenAI(api_key=key)
+service = OpenAI(api_key=key)
 
 # 入力となる会話を格納するリスト
 messages = []
@@ -31,7 +31,7 @@ for message in messages:
 
 
 # 会話の取得
-completionResult = cliant.chat.completions.create(
+completionResult = service.chat.completions.create(
     model=model,
     messages=messages,
     max_tokens=max_tokens,
